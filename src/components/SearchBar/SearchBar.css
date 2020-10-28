@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/background_search_desktop.jpg');
+    background-image: url('../../images/main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
@@ -28,13 +28,13 @@
   }
   
   .SearchBar-sort-options li:hover {
-    color: #d4cfcf;
+    color: #6cca55;
   }
   
   .SearchBar-sort-options li.active,
   .SearchBar-sort-options li.active:hover {
-    border-bottom: 1px solid #f0c36c;
-    color: #f0c36c;
+    border-bottom: 1px solid #548f45;
+    color: #548f45;
   }
   
   .SearchBar-fields {
@@ -64,7 +64,7 @@
   .SearchBar-submit a {
     border-radius: 4px;
     padding: .72rem 1.7rem;
-    background-color: #cca353;
+    background-color: #548f45;
     color: #ffffff;
     font-weight: 600;
     transition: background-color .5s;
@@ -72,7 +72,7 @@
   
   .SearchBar-submit a:hover {
     cursor: pointer;
-    background-color: #a7874b;
+    background-color: #3e6834;;
   }
   
   @media only screen and (max-width: 560px) {

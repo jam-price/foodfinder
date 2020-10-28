@@ -10,6 +10,7 @@ let Yelp = {
             return response.json();
         }).then(jsonResponse => {
         if(jsonResponse.businesses) {
+            console.log(jsonResponse)
             return jsonResponse.businesses.map(business => {
                 return {
                     id: business.id,
@@ -22,7 +23,8 @@ let Yelp = {
                     category: business.categories[0].title,
                     rating: business.rating,
                     reviewCount: business.reviewCount,
-
+                    url: business.url,
+                    phone: business.display_phone
                 }
             });
         } else console.log('Error')

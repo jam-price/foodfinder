@@ -1,6 +1,6 @@
 import React from 'react';
 import './Business.css';
-
+import logo from '../../images/logo.svg'
 
 
 class Business extends React.Component {
@@ -8,9 +8,14 @@ class Business extends React.Component {
         return(
             <div className="Business">
                 <div className="image-container">
-                    <img src={this.props.business.imageSrc} alt=''/>
+                    {this.props.business.imageSrc === '' ? 
+                    <img src={logo} alt='Generic Business' /> 
+                    : <img src={this.props.business.imageSrc} alt='Business'/>
+                    }
                 </div>
+                <a href={this.props.business.url}>
                 <h2>{this.props.business.name}</h2>
+                </a>
                 <div className="Business-information">
                     <div className="Business-address">
                         <p>{this.props.business.address}</p>
@@ -22,6 +27,13 @@ class Business extends React.Component {
                         <h3 className="rating">{this.props.business.rating} stars</h3>
                         <p>{this.props.business.reviewCount} reviews</p>
                     </div>
+                </div>
+                <div>
+                    <h2>Telephone:</h2>
+                    <a 
+                    href={this.props.business.phone === "" ? '#' : `tel:${this.props.business.phone}`}>
+                        {this.props.business.phone === "" ? `No phone number` : this.props.business.phone}
+                    </a>
                 </div>
             </div>
         )
