@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/foodfinder/static/css/main.84c6b007.chunk.css",
+    "main.js": "/foodfinder/static/js/main.e3b818bc.chunk.js",
+    "main.js.map": "/foodfinder/static/js/main.e3b818bc.chunk.js.map",
+    "runtime-main.js": "/foodfinder/static/js/runtime-main.35f828dc.js",
+    "runtime-main.js.map": "/foodfinder/static/js/runtime-main.35f828dc.js.map",
+    "static/js/2.f4b03e9e.chunk.js": "/foodfinder/static/js/2.f4b03e9e.chunk.js",
+    "static/js/2.f4b03e9e.chunk.js.map": "/foodfinder/static/js/2.f4b03e9e.chunk.js.map",
+    "index.html": "/foodfinder/index.html",
+    "precache-manifest.f17f263f5be557a7e028fe46304a77f1.js": "/foodfinder/precache-manifest.f17f263f5be557a7e028fe46304a77f1.js",
+    "service-worker.js": "/foodfinder/service-worker.js",
+    "static/css/main.84c6b007.chunk.css.map": "/foodfinder/static/css/main.84c6b007.chunk.css.map",
+    "static/js/2.f4b03e9e.chunk.js.LICENSE.txt": "/foodfinder/static/js/2.f4b03e9e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/foodfinder/static/media/logo.ba7b8a49.svg",
+    "static/media/SearchBar.css": "/foodfinder/static/media/main.80296831.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35f828dc.js",
+    "static/js/2.f4b03e9e.chunk.js",
+    "static/css/main.84c6b007.chunk.css",
+    "static/js/main.e3b818bc.chunk.js"
+  ]
+}
