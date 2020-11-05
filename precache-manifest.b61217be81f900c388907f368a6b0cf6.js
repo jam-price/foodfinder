@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e4620501df96eb3d60d0dbea35c9db7",
+    "revision": "dda05bd9581dd171396ee34aac1dccb8",
     "url": "/foodfinder/index.html"
   },
   {
-    "revision": "eafa42dcf7911af015c7",
+    "revision": "ad72716025d85444b1eb",
     "url": "/foodfinder/static/css/main.84c6b007.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/foodfinder/static/js/2.f4b03e9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eafa42dcf7911af015c7",
-    "url": "/foodfinder/static/js/main.e3b818bc.chunk.js"
+    "revision": "ad72716025d85444b1eb",
+    "url": "/foodfinder/static/js/main.57bbcbcd.chunk.js"
   },
   {
     "revision": "01ac75e46e021c27a614",
